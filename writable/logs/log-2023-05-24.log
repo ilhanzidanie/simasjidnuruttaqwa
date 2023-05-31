@@ -1,0 +1,1738 @@
+INFO - 2023-05-24 00:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 00:09:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 00:10:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 00:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 00:13:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 00:16:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 00:16:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 00:19:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 00:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 00:25:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 00:25:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 00:26:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 00:28:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 00:28:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 00:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 00:40:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 00:40:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 00:40:16 --> Undefined variable $tanggal
+in APPPATH\Views\v_agenda.php on line 39.
+ 1 APPPATH\Views\v_agenda.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tanggal', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_agenda.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_agenda.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_agenda', [], true)
+ 5 APPPATH\Views\v_template_admin.php(169): view('v_agenda')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Agenda.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Agenda->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Agenda))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 00:40:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 00:40:24 --> Undefined variable $tanggal
+in APPPATH\Views\v_agenda.php on line 39.
+ 1 APPPATH\Views\v_agenda.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tanggal', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_agenda.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_agenda.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_agenda', [], true)
+ 5 APPPATH\Views\v_template_admin.php(169): view('v_agenda')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Agenda.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Agenda->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Agenda))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 00:40:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 00:40:45 --> mktime(): Argument #4 ($month) must be of type ?int, string given
+in APPPATH\Views\v_agenda.php on line 39.
+ 1 APPPATH\Views\v_agenda.php(39): mktime(0, 0, 0, '2023-05-23', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_agenda.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_agenda', [], true)
+ 5 APPPATH\Views\v_template_admin.php(169): view('v_agenda')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Agenda.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Agenda->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Agenda))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 00:44:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 00:51:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 00:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 00:55:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 00:55:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 00:55:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 00:55:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 00:55:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 00:55:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 00:55:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 00:55:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 01:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 01:03:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 01:05:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 01:06:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 14:31:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 14:31:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 14:31:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 14:31:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 14:31:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 14:31:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 14:32:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 14:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 14:32:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 14:32:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 15:05:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 15:05:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 15:08:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 15:08:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 15:08:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 15:08:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 15:08:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 15:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 15:08:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 15:08:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 16:08:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 16:32:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 17:11:00 --> Invalid file: "v_template.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_template.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template', [], true)
+ 3 APPPATH\Controllers\Home.php(37): view('v_template', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->Agenda()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 17:20:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 17:23:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 17:23:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 17:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 17:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 17:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 17:23:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 17:23:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 17:24:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 17:24:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 17:24:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 17:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 17:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 17:25:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 17:25:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 17:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 17:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 17:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 17:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 17:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 17:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 17:27:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 17:27:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 17:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 17:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 17:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 17:29:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 17:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 17:30:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 17:30:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 17:30:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 17:30:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 17:31:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 17:31:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 17:32:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 17:32:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 17:33:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 17:34:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 17:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 17:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 17:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 18:47:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 18:47:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 18:48:54 --> Undefined variable $web
+in APPPATH\Views\v_template.php on line 11.
+ 1 APPPATH\Views\v_template.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $web', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template', [], true)
+ 5 APPPATH\Controllers\Home.php(27): view('v_template', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 18:48:57 --> Undefined variable $web
+in APPPATH\Views\v_template.php on line 11.
+ 1 APPPATH\Views\v_template.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $web', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template', [], true)
+ 5 APPPATH\Controllers\Home.php(27): view('v_template', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 18:50:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 18:50:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 18:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 18:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 18:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 18:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 18:52:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 18:52:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 18:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 18:53:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 18:53:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 18:53:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 18:53:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 18:53:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 18:53:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 18:53:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 18:53:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 18:54:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 18:55:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 18:56:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 18:56:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 18:56:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 18:56:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 18:56:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 19:17:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 19:17:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 19:17:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 19:17:09 --> Undefined variable $agenda
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $agenda', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 19:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 19:17:50 --> Undefined variable $sejarah
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 19:19:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 19:19:57 --> Undefined variable $sejarah
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 19:19:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 19:20:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 19:20:00 --> Undefined variable $sejarah
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 19:25:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 19:25:54 --> Undefined variable $sejarah
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(206): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 19:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 19:26:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 19:26:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 19:26:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 19:26:05 --> Undefined variable $sejarah
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(206): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 19:27:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 19:27:52 --> Undefined variable $sejarah
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(206): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 19:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 19:28:01 --> Undefined variable $sejarah
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(206): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 19:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 19:29:19 --> Undefined variable $sejarah
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(206): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 19:29:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 19:29:44 --> Undefined variable $id_sejarah
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_sejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(206): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 19:31:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 19:31:42 --> Undefined variable $agenda
+in APPPATH\Views\v_dashboard.php on line 32.
+ 1 APPPATH\Views\v_dashboard.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $agenda', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(206): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 19:31:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 19:31:43 --> Undefined variable $agenda
+in APPPATH\Views\v_dashboard.php on line 32.
+ 1 APPPATH\Views\v_dashboard.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $agenda', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(206): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 19:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 19:31:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 19:31:49 --> Undefined variable $agenda
+in APPPATH\Views\v_dashboard.php on line 32.
+ 1 APPPATH\Views\v_dashboard.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $agenda', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(206): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 19:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 19:34:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 19:34:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 19:34:53 --> Invalid file: "v_sejarah.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_sejarah.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_sejarah', [], true)
+ 3 APPPATH\Views\v_template_admin.php(206): view('v_sejarah')
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 7 APPPATH\Controllers\Sejarah.php(24): view('v_template_admin', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Sejarah->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sejarah))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 19:36:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 19:36:09 --> Invalid file: "v_sejarah.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_sejarah.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_sejarah', [], true)
+ 3 APPPATH\Views\v_template_admin.php(206): view('v_sejarah')
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 7 APPPATH\Controllers\Sejarah.php(24): view('v_template_admin', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Sejarah->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sejarah))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 19:38:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 19:38:29 --> Invalid file: "v_sejarah.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_sejarah.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_sejarah', [], true)
+ 3 APPPATH\Views\v_template_admin.php(206): view('v_sejarah')
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 7 APPPATH\Controllers\Sejarah.php(24): view('v_template_admin', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Sejarah->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sejarah))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 19:38:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 19:38:30 --> Invalid file: "v_sejarah.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_sejarah.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_sejarah', [], true)
+ 3 APPPATH\Views\v_template_admin.php(206): view('v_sejarah')
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 7 APPPATH\Controllers\Sejarah.php(24): view('v_template_admin', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Sejarah->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sejarah))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 19:38:41 --> Undefined variable $web
+in APPPATH\Views\front-end\v_sejarah.php on line 4.
+ 1 APPPATH\Views\front-end\v_sejarah.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $web', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\front-end\\v_sejarah.php', 4)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\front-end\\v_sejarah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('front-end/v_sejarah', [], true)
+ 5 APPPATH\Views\v_template.php(110): view('front-end/v_sejarah')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Home.php(47): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->Sejarah()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 19:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 19:39:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 19:39:33 --> Invalid file: "v_sejarah.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_sejarah.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_sejarah', [], true)
+ 3 APPPATH\Views\v_template_admin.php(206): view('v_sejarah')
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 7 APPPATH\Controllers\Sejarah.php(24): view('v_template_admin', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Sejarah->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sejarah))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 19:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 19:39:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 19:39:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 19:39:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 19:39:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 19:39:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 19:41:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 19:41:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 19:41:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 19:41:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 19:41:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 19:43:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 19:45:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 19:45:02 --> Undefined variable $agenda
+in APPPATH\Views\v_dashboard.php on line 32.
+ 1 APPPATH\Views\v_dashboard.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $agenda', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 19:47:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 19:47:22 --> Undefined variable $agenda
+in APPPATH\Views\v_dashboard.php on line 32.
+ 1 APPPATH\Views\v_dashboard.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $agenda', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 19:47:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 19:47:23 --> Undefined variable $agenda
+in APPPATH\Views\v_dashboard.php on line 32.
+ 1 APPPATH\Views\v_dashboard.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $agenda', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 19:47:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 19:47:24 --> Undefined variable $agenda
+in APPPATH\Views\v_dashboard.php on line 32.
+ 1 APPPATH\Views\v_dashboard.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $agenda', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 19:47:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 19:47:24 --> Undefined variable $agenda
+in APPPATH\Views\v_dashboard.php on line 32.
+ 1 APPPATH\Views\v_dashboard.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $agenda', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 19:47:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 19:47:58 --> Undefined variable $agenda
+in APPPATH\Views\v_dashboard.php on line 32.
+ 1 APPPATH\Views\v_dashboard.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $agenda', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 19:47:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 19:47:59 --> Undefined variable $agenda
+in APPPATH\Views\v_dashboard.php on line 32.
+ 1 APPPATH\Views\v_dashboard.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $agenda', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 19:47:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 19:47:59 --> Undefined variable $agenda
+in APPPATH\Views\v_dashboard.php on line 32.
+ 1 APPPATH\Views\v_dashboard.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $agenda', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 19:47:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 19:47:59 --> Undefined variable $agenda
+in APPPATH\Views\v_dashboard.php on line 32.
+ 1 APPPATH\Views\v_dashboard.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $agenda', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 19:48:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 19:48:00 --> Undefined variable $agenda
+in APPPATH\Views\v_dashboard.php on line 32.
+ 1 APPPATH\Views\v_dashboard.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $agenda', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 19:48:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 19:48:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 19:48:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 19:48:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 19:48:04 --> Undefined variable $agenda
+in APPPATH\Views\v_dashboard.php on line 32.
+ 1 APPPATH\Views\v_dashboard.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $agenda', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 19:52:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 19:52:37 --> Undefined variable $sejarah
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 19:52:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 19:52:38 --> Undefined variable $sejarah
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 19:52:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 19:52:38 --> Undefined variable $sejarah
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 19:52:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 19:52:39 --> Undefined variable $sejarah
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 19:52:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 19:52:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 19:52:47 --> Undefined variable $sejarah
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 19:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 19:54:18 --> Undefined variable $sejarah
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 19:54:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 19:54:36 --> Undefined variable $sejarah
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 19:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 19:54:57 --> Undefined variable $sejarah
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 19:54:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 19:54:58 --> Undefined variable $sejarah
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 19:54:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 19:54:59 --> Undefined variable $sejarah
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 19:54:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 19:54:59 --> Undefined variable $sejarah
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 19:54:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 19:54:59 --> Undefined variable $sejarah
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 19:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 19:56:40 --> Undefined variable $sejarah
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 19:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 19:56:57 --> Undefined variable $sejarah
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 19:58:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 19:58:06 --> Undefined variable $sejarah
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 19:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 19:58:07 --> Undefined variable $sejarah
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 19:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 19:58:07 --> Undefined variable $sejarah
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 19:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 19:58:07 --> Undefined variable $sejarah
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 19:58:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 19:58:49 --> Undefined variable $sejarah
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 20:00:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 20:00:48 --> Undefined variable $sejarah
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 20:00:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 20:00:49 --> Undefined variable $sejarah
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 20:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 20:02:00 --> Undefined variable $sejarah
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 20:05:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 20:05:11 --> Undefined variable $sejarah
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 20:07:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 20:07:21 --> Undefined variable $sejarah
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 20:07:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 20:07:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 20:07:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 20:07:27 --> Undefined variable $sejarah
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 20:10:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 20:10:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 20:10:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 20:10:43 --> Undefined variable $sejarah
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 20:14:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 20:14:12 --> Undefined variable $sejarah
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 20:17:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 20:17:14 --> Undefined variable $sejarah
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 20:17:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 20:17:15 --> Undefined variable $sejarah
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 20:17:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 20:17:16 --> Undefined variable $sejarah
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 20:17:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 20:17:16 --> Undefined variable $sejarah
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 20:17:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 20:17:16 --> Undefined variable $sejarah
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 20:48:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 20:48:30 --> Undefined variable $sejarah
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 20:48:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 20:48:30 --> Undefined variable $sejarah
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 20:48:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 20:48:31 --> Undefined variable $sejarah
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 20:48:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 20:48:31 --> Undefined variable $sejarah
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 20:48:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 20:48:31 --> Undefined variable $sejarah
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 20:48:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 20:48:32 --> Undefined variable $sejarah
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 20:48:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 20:48:32 --> Undefined variable $sejarah
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 20:48:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 20:48:32 --> Undefined variable $sejarah
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 20:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 20:54:18 --> Undefined variable $sejarah
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 20:54:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 20:54:20 --> Undefined variable $sejarah
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 20:54:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 20:54:20 --> Undefined variable $sejarah
+in APPPATH\Views\v_dashboard.php on line 54.
+ 1 APPPATH\Views\v_dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(171): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 20:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 20:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 20:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 20:54:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 20:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 20:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 20:55:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 20:55:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 20:55:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 20:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 20:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 20:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 20:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 20:56:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:17:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:18:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:28:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:29:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 21:29:11 --> Undefined variable $agenda
+in APPPATH\Views\v_sejarah.php on line 62.
+ 1 APPPATH\Views\v_sejarah.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $agenda', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_sejarah.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_sejarah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_sejarah', [], true)
+ 5 APPPATH\Views\v_template_admin.php(179): view('v_sejarah')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Sejarah.php(24): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Sejarah->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sejarah))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 21:31:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:33:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:33:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:33:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:33:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:34:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:34:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:34:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:34:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:34:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:34:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:34:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:34:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:34:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:35:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:35:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:37:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:43:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:43:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:44:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:45:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:45:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:46:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:46:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:46:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:46:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:46:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:46:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:46:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:46:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:46:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:46:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:46:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:46:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:46:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:46:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:46:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:46:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:46:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:46:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:46:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:47:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-24 21:48:38 --> mysqli_sql_exception: Unknown column 'isi_sejarah' in 'where clause' in C:\wamp64\www\masjid-nuruttaqwa\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\masjid-nuruttaqwa\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\masjid-nuruttaqwa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\masjid-nuruttaqwa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\masjid-nuruttaqwa\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\masjid-nuruttaqwa\app\Models\ModelHome.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\masjid-nuruttaqwa\app\Controllers\Home.php(45): App\Models\ModelHome->Sejarah()
+#6 C:\wamp64\www\masjid-nuruttaqwa\system\CodeIgniter.php(934): App\Controllers\Home->Sejarah()
+#7 C:\wamp64\www\masjid-nuruttaqwa\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\wamp64\www\masjid-nuruttaqwa\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\masjid-nuruttaqwa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-24 21:48:38 --> Unknown column 'isi_sejarah' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_sejarah`
+WHERE `isi_sejarah` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_sejarah`
+WHERE `isi_sejarah` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_sejarah`
+WHERE `isi_sejarah` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_sejarah`
+WHERE `isi_sejarah` IS NULL', [], false)
+ 5 APPPATH\Models\ModelHome.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(45): App\Models\ModelHome->Sejarah()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->Sejarah()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-24 21:49:06 --> mysqli_sql_exception: Unknown column 'isi_sejarah' in 'where clause' in C:\wamp64\www\masjid-nuruttaqwa\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\masjid-nuruttaqwa\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\masjid-nuruttaqwa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\masjid-nuruttaqwa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\masjid-nuruttaqwa\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\masjid-nuruttaqwa\app\Models\ModelHome.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\masjid-nuruttaqwa\app\Controllers\Home.php(45): App\Models\ModelHome->Sejarah()
+#6 C:\wamp64\www\masjid-nuruttaqwa\system\CodeIgniter.php(934): App\Controllers\Home->Sejarah()
+#7 C:\wamp64\www\masjid-nuruttaqwa\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\wamp64\www\masjid-nuruttaqwa\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\masjid-nuruttaqwa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-24 21:49:06 --> Unknown column 'isi_sejarah' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_sejarah`
+WHERE `isi_sejarah` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_sejarah`
+WHERE `isi_sejarah` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_sejarah`
+WHERE `isi_sejarah` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_sejarah`
+WHERE `isi_sejarah` IS NULL', [], false)
+ 5 APPPATH\Models\ModelHome.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(45): App\Models\ModelHome->Sejarah()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->Sejarah()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-24 21:49:07 --> mysqli_sql_exception: Unknown column 'isi_sejarah' in 'where clause' in C:\wamp64\www\masjid-nuruttaqwa\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\masjid-nuruttaqwa\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\masjid-nuruttaqwa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\masjid-nuruttaqwa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\masjid-nuruttaqwa\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\masjid-nuruttaqwa\app\Models\ModelHome.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\masjid-nuruttaqwa\app\Controllers\Home.php(45): App\Models\ModelHome->Sejarah()
+#6 C:\wamp64\www\masjid-nuruttaqwa\system\CodeIgniter.php(934): App\Controllers\Home->Sejarah()
+#7 C:\wamp64\www\masjid-nuruttaqwa\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\wamp64\www\masjid-nuruttaqwa\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\masjid-nuruttaqwa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-24 21:49:07 --> Unknown column 'isi_sejarah' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_sejarah`
+WHERE `isi_sejarah` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_sejarah`
+WHERE `isi_sejarah` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_sejarah`
+WHERE `isi_sejarah` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_sejarah`
+WHERE `isi_sejarah` IS NULL', [], false)
+ 5 APPPATH\Models\ModelHome.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(45): App\Models\ModelHome->Sejarah()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->Sejarah()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-24 21:49:07 --> mysqli_sql_exception: Unknown column 'isi_sejarah' in 'where clause' in C:\wamp64\www\masjid-nuruttaqwa\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\masjid-nuruttaqwa\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\masjid-nuruttaqwa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\masjid-nuruttaqwa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\masjid-nuruttaqwa\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\masjid-nuruttaqwa\app\Models\ModelHome.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\masjid-nuruttaqwa\app\Controllers\Home.php(45): App\Models\ModelHome->Sejarah()
+#6 C:\wamp64\www\masjid-nuruttaqwa\system\CodeIgniter.php(934): App\Controllers\Home->Sejarah()
+#7 C:\wamp64\www\masjid-nuruttaqwa\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\wamp64\www\masjid-nuruttaqwa\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\masjid-nuruttaqwa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-24 21:49:07 --> Unknown column 'isi_sejarah' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_sejarah`
+WHERE `isi_sejarah` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_sejarah`
+WHERE `isi_sejarah` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_sejarah`
+WHERE `isi_sejarah` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_sejarah`
+WHERE `isi_sejarah` IS NULL', [], false)
+ 5 APPPATH\Models\ModelHome.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(45): App\Models\ModelHome->Sejarah()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->Sejarah()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-24 21:49:08 --> mysqli_sql_exception: Unknown column 'isi_sejarah' in 'where clause' in C:\wamp64\www\masjid-nuruttaqwa\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\masjid-nuruttaqwa\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\masjid-nuruttaqwa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\masjid-nuruttaqwa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\masjid-nuruttaqwa\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\masjid-nuruttaqwa\app\Models\ModelHome.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\masjid-nuruttaqwa\app\Controllers\Home.php(45): App\Models\ModelHome->Sejarah()
+#6 C:\wamp64\www\masjid-nuruttaqwa\system\CodeIgniter.php(934): App\Controllers\Home->Sejarah()
+#7 C:\wamp64\www\masjid-nuruttaqwa\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\wamp64\www\masjid-nuruttaqwa\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\masjid-nuruttaqwa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-24 21:49:08 --> Unknown column 'isi_sejarah' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_sejarah`
+WHERE `isi_sejarah` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_sejarah`
+WHERE `isi_sejarah` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_sejarah`
+WHERE `isi_sejarah` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_sejarah`
+WHERE `isi_sejarah` IS NULL', [], false)
+ 5 APPPATH\Models\ModelHome.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(45): App\Models\ModelHome->Sejarah()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->Sejarah()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-24 21:49:54 --> mysqli_sql_exception: Unknown column 'isi_sejarah' in 'where clause' in C:\wamp64\www\masjid-nuruttaqwa\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\masjid-nuruttaqwa\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\masjid-nuruttaqwa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\masjid-nuruttaqwa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\masjid-nuruttaqwa\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\masjid-nuruttaqwa\app\Models\ModelHome.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\masjid-nuruttaqwa\app\Controllers\Home.php(45): App\Models\ModelHome->Sejarah()
+#6 C:\wamp64\www\masjid-nuruttaqwa\system\CodeIgniter.php(934): App\Controllers\Home->Sejarah()
+#7 C:\wamp64\www\masjid-nuruttaqwa\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\wamp64\www\masjid-nuruttaqwa\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\masjid-nuruttaqwa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-24 21:49:54 --> Unknown column 'isi_sejarah' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_sejarah`
+WHERE `isi_sejarah` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_sejarah`
+WHERE `isi_sejarah` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_sejarah`
+WHERE `isi_sejarah` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_sejarah`
+WHERE `isi_sejarah` IS NULL', [], false)
+ 5 APPPATH\Models\ModelHome.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(45): App\Models\ModelHome->Sejarah()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->Sejarah()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 21:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:53:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:53:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 21:58:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 22:12:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 22:12:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 22:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 22:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 22:13:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 22:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 22:15:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 22:17:11 --> Undefined property: App\Controllers\Home::$ModelSejarah
+in APPPATH\Controllers\Home.php on line 45.
+ 1 APPPATH\Controllers\Home.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$ModelSejarah', 'C:\\wamp64\\www\\masjid-nuruttaqwa\\app\\Controllers\\Home.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->Sejarah()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 22:35:20 --> Call to undefined method App\Models\ModelHome::Sejarah
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Home.php(45): CodeIgniter\Model->__call('Sejarah', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->Sejarah()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 22:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 22:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 22:37:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 22:37:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 22:38:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 22:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 22:39:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 22:40:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 22:44:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 22:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 22:45:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 23:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 23:15:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 23:16:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 23:16:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 23:20:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 23:22:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 23:22:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 23:31:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 23:31:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 23:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 23:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 23:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 23:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 23:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 23:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 23:39:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 23:39:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 23:40:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 23:40:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 23:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 23:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 23:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 23:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 23:41:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 23:41:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 23:41:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 23:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 23:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 23:42:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 23:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 23:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 23:44:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 23:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 23:45:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 23:45:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,17 @@
+body {
+  background-image: url("http://localhost/masjid-nuruttaqwa/public/assets/img/loginbackground.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn {
+  background-color: #40326F;
+  border-radius: 8px;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #6F42C1;
+  color: #fff;
+}

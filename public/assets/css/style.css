@@ -1,0 +1,100 @@
+.max-height-150 pre {
+  max-height: 150px;
+}
+
+.theme-switch {
+  display: inline-block;
+  height: 24px;
+  position: relative;
+  width: 50px;
+}
+
+.theme-switch input {
+  display: none;
+}
+
+.moon, .sun {
+  font-size:13px;
+}
+
+.theme-switch-wrapper .theme-switch .moon {
+  position: absolute;
+  top: 50%;
+  left: 22%;
+  transform: translate(-50%, -50%);
+  color: #343a40;
+}
+
+.theme-switch-wrapper .theme-switch .sun {
+  position: absolute;
+  top: 51%;
+  left: 76%;
+  transform: translate(-50%, -50%);
+  color: #343a40;
+}
+
+.slider {
+  background-color: #ccc;
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: 400ms;
+}
+
+.slider::before {
+  background-color: #343a40;
+  bottom: 4px;
+  content: "";
+  height: 16px;
+  left: 4px;
+  position: absolute;
+  transition: 400ms;
+  width: 16px;
+}
+
+input:checked + .slider {
+  background-color: #6F42C1;
+}
+
+input:checked + .slider::before {
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round::before {
+  border-radius: 50%;
+}
+
+ul li .nav-link {
+  color: black;
+  transition: 0.5s;
+  margin: 5px 5px;
+  border-radius: 8px;
+}
+
+ul li .nav-link:hover {
+  background-color: #6F42C1;
+  border-radius: 8px;
+}
+
+a .page-link {
+  background-color: #6F42C1;
+}
+
+.btn-form {
+  background-color: #6F42C1;
+  border-radius: 8px;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.btn-form:hover {
+  background-color: #40326F;
+  color: #fff;
+}
